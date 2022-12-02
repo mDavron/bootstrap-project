@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+.container {
+	max-width: 1140px;
+}
+
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active,
+.navbar-light .navbar-nav .nav-item>.show .nav-link,
+.navbar-light .navbar-nav .nav-item .nav-link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 20px;
+}
+
+.btn {
+
+	display: inline-block !important;
+	letter-spacing: 1px;
+}
+
+.btn-outline-secondary:focus {
+	outline: none !important;
+	border: none
+}
+
+.btn:hover {
+	color: #FFFFFF !important;
+	background: #21bf73 !important;
+	border: 1px solid #21bf73 !important;
+	display: inline-block !important;
+}
+
+
+h1 {
+	font-family: "Montserrat";
+	font-weight: 800;
+	color: #3a3a47;
+	line-height: 1.2;
+}
+
+.home {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.bg--gray {
+	background: #f0f5f9;
+}
+
+/*  ========= ABOUT HERE ======== */
+.about h6 {
+	font-size: 13px;
+	font-weight: 700;
+	color: #21bf73;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.about h2 {
+	font-size: 34px;
+	font-weight: 800;
+	color: #383B61;
+	line-height: 1.2;
+	margin-top: 15px;
+}
+
+.about p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.01em;
+	color: #818198;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* card */
+.about_card-1 {
+	background: #fff2e5;
+}
+
+.about_card-2 {
+	background: #f8f9fa;
+}
+
+.about_card-3 {
+	background: #f0f5f9;
+}
+
+/*  ========= FEATURES HERE ======== */
+.features_inner {
+	background: #f0f5f9;
+	padding: 50px;
+}
+
+.features_inner h1 {
+	margin-top: 40px;
+}
+
+.features_inner p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.01em;
+	color: #6A7076;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.list-unstyled li {
+	font-size: 15px;
+	font-weight: 600;
+	color: #6A7076;
+	margin: 15px 0;
+}
+
+/* results */
+.results {
+	padding: 50px 0;
+}
+
+.results h1 {
+	font-size: 34px;
+	font-weight: 800;
+	color: #383B61;
+	line-height: 1.3;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.results h5 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #3498db;
+	line-height: 1.3;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.results_card-image {
+	width: 80px;
+}
+
+.results_card h3 {
+	font-size: 28px;
+	font-weight: 700;
+	color: #383B61;
+}
+
+.results_card p {
+	font-size: 15px;
+	font-weight: 500;
+	padding: 0.5em;
+	color: #ABAFB3;
+}
+
+/* reviews */
+.rev_block .quote-icon{
+	width: 60px;
+	vertical-align:bottom!important;
+}
+.rev-intro {
+	text-align: left;
+	/* margin-top: 30px; */
+	padding: 50px;
+}
+
+.rev-intro h2 {
+	font-size: 34px;
+	font-weight: 800;
+	color: #383B61;
+	line-height: 1.2;
+}
+
+.rev-intro p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.01em;
+	color: #6A7076;
+	margin-top: 15px;
+}
+/* REVIEWS */
+.reviews_inner{
+	text-align: center;
+	background: #f0f5f9;
+	padding: 50px 0;
+}
+.rev_block-bottom{
+	display: flex;
+	align-items: center;
+}
+.rev_block-bottom img{
+	width: 60px!important;
+	border-radius: 100%;
+}
+.rev_block{
+	padding-bottom: 25px;
+}
+	.rev_block h2 {
+    display: inline;
+    font-size: 18px;
+    color: #6A7076;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+.rev_block-bottom{
+	display: flex;
+	align-items: center;
+}
+.rev_block-bottom .rev-text h3 {
+	font-size: 16px;
+	color: #161851;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 5px;
+	margin-top: 18px;
+}
+.rev_block-bottom .rev-text p {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.6;
+	color: #5e687c;
+	text-align: left;
+}
+.rev_block-bottom .rev-text span{
+	color: #3498db;
+}
+.carousel-indicators button{
+	background-color: #383B61!important;
+}
+
+
+
+@media(max-width:576px) {
+	.custom-pd-y {
+		padding-top: 50px;
+		/* padding-bottom: 25px; */
+	}
+
+	.features_inner {
+		padding: 20px;
+	}
+
+	.results h1 {
+		font-size: 28px;
+	}
+	.reviews_inner{
+		/* text-align: center;
+		background: #f0f5f9; */
+		padding: 20px 0;
+	}
+}
+
+@media(min-width:768px) and (max-width:1140px) {
+	.card {
+		padding: 20px !important;
+	}
+}

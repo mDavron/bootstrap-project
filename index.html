@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ BOOTSTRAP LINK ============ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- ============ GOOGLE FONTS LINK ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- ============ CUSTOM CSS LINK ============ -->
+  <link rel="stylesheet" href="./css/custom.css">
+  <title>Bootstrap Project</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- ============ NAVBAR HERE ============ -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white py-3 px-2 shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">Connect.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#results">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary ms-3 ms-md-0 mt-3 mt-md-0 px-4" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============ SECTION PRODUCT HERE ============ -->
+    <section id="product" class="home bg--gray">
+      <div class="container">
+        <div class="row flex-column-reverse flex-md-row text-center text-md-start">
+          <div class="col-12 col-md-6 mt-5 mt-md-0 d-flex align-items-center">
+            <div>
+              <h6 class="text-secondary">Launch your product</h6>
+              <h1 class="mb-3 mt-4">Connect better with interactive stream.</h1>
+              <button type="button" class="btn btn-outline-primary me-2">SEE MORE</button>
+              <button type="button" class="btn btn-success">DONWLOAD</button>
+              <p class="text-secondary mt-3 mb-0">Free unrestricted usage for 14 days.</p>
+              <p class="text-secondary">No credit card required*</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="./images/head.png" alt="main-img" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION ABOUT HERE ============ -->
+    <section id="about" class="about my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <h6>WHAT'S INSIDE</h6>
+            <h2>Connect can bring charm to your website.</h2>
+            <p>Get staright to the point always, people find it attractive when they visit your website.</p>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-10 offset-1 col-md-4 offset-md-0 mb-3 mb-md-0">
+            <div class="card border-0 p-5 about_card-1">
+              <img src="./images/cat1.png" alt="f1" class="img-top" style="width:80px ;">
+              <div class="card-body">
+                <h5 class="card-title">Fluid Layout</h5>
+                <p class="card-text text-secondary">Deliver the best stories and ideas on the topics you care about most
+                  straight to you.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 offset-1 col-md-4 offset-md-0 mb-3 mb-md-0">
+            <div class="card border-0 p-5 about_card-2 ">
+              <img src="./images/cat2.png" alt="f1" class="img-top" style="width:80px ;">
+              <div class="card-body">
+                <h5 class="card-title">Fluid Layout</h5>
+                <p class="card-text text-secondary">Deliver the best stories and ideas on the topics you care about most
+                  straight to you.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 offset-1 col-md-4 offset-md-0 mb-3 mb-md-0">
+            <div class="card border-0 p-5 about_card-3 ">
+              <img src="./images/cat3.png" alt="f1" class="img-top" style="width:80px ;">
+              <div class="card-body">
+                <h5 class="card-title">Fluid Layout</h5>
+                <p class="card-text text-secondary">Deliver the best stories and ideas on the topics you care about most
+                  straight to you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- ============ SECTION FEATURES HERE ============ -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="features_inner mb-5">
+          <div class="row mb-5 justify-content-center align-items-center ">
+            <div class="col-12 col-md-5 ">
+              <img src="./images/support.png" alt="f1.png" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-5 offset-md-1 d-flex flex-column justify-content-center">
+              <h1>Data sharing.</h1>
+              <p>When you get staright to the point the presentation looks attractive on your web pages.</p>
+              <ul class="list-unstyled">
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  Realtime broadcasts
+                </li>
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  Upload and sit tight
+                </li>
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  View realtime stats
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- row ends -->
+          <div class="row mb-5 mb-md-0 flex-column-reverse flex-md-row justify-content-center align-items-center">
+            <div class="col-12 col-md-5 offset-md-1 order-2">
+              <img src="./images/write.png" alt="write.png" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-5 d-flex flex-column justify-content-center order-0">
+              <h1>High Definition</h1>
+              <p>When you get staright to the point the presentation looks attractive on your web pages.</p>
+              <ul class="list-unstyled">
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  Realtime broadcast
+                </li>
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  View realtime stats
+                </li>
+                <li>
+                  <img src="./images/tick.svg" alt="svg">
+                  Upload and sit tight
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS HERE ============ -->
+    <section id="results" class="results mb-5">
+      <div class="container-md text-center">
+        <h5>OUR RESULTS</h5>
+        <h1 class="mb-5 pb-3">Our awesome results worth displaying</h1>
+
+        <div class="col-lg-8 offset-lg-2">
+
+          <div class="row">
+            <div class="col-6 col-sm-3 results_card">
+              <div class="p-3">
+                <img src="./images/f1.png" class="img-fluid results_card-image" alt="f1.png">
+              </div>
+              <h3>47%</h3>
+              <p>Mobile Users</p>
+            </div>
+            <div class="col-6 col-sm-3 results_card">
+              <div class="p-3">
+                <img src="./images/f2.png" class="img-fluid results_card-image" alt="f1.png">
+              </div>
+              <h3>33%</h3>
+              <p>Daily Views</p>
+            </div>
+            <div class="col-6 col-sm-3 results_card">
+              <div class="p-3">
+                <img src="./images/f3.png" class="img-fluid results_card-image" alt="f1.png">
+              </div>
+              <h3>28%</h3>
+              <p>Monthly Returns</p>
+            </div>
+            <div class="col-6 col-sm-3 results_card">
+              <div class="p-3">
+                <img src="./images/f4.png" class="img-fluid results_card-image" alt="f1.png">
+              </div>
+              <h3>49%</h3>
+              <p>Annual Growth</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS HERE ============ -->
+    <section id="reviews" class="reviews">
+      <div class="container reviews_inner">
+
+        <div class="row">
+          <div class="col-sm-12 col-md-5">
+            <div class="rev-intro">
+              <h2>Stories from our customers</h2>
+              <p>When you get staright to the point the presentation looks attractive.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-7">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner p-5">
+
+                <div class="carousel-item active">
+                  <div class="rev_block text-start">
+                    <img src="./images/quote.svg" alt="quote.svg" class="quote-icon">
+                    <span> We use Connect for key for
+                      easy and seamless weekly communication with our clients. Pariatur cliche reprehenderit, enim
+                      eiusmod high life accusamus terry richardson ad squid.</span>
+                  </div>
+                  <div class="rev_block-bottom">
+                    <div>
+                      <img src="./images/rev.png" alt="...">
+                    </div>
+                    <div class="rev-text ms-4">
+                      <h3 class="text-start">Marty McFly</h3>
+                      <p>Manager Sales,<span>Optima Corp</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- carousel item ends -->
+                <div class="carousel-item">
+                  <div class="rev_block text-start">
+                    <img src="./images/quote.svg" alt="quote.svg" class="quote-icon">
+                    <span> We use Connect for key for
+                      easy and seamless weekly communication with our clients. Pariatur cliche reprehenderit, enim
+                      eiusmod high life accusamus terry richardson ad squid.</span>
+                  </div>
+                  <div class="rev_block-bottom">
+                    <div>
+                      <img src="./images/rev2.png" alt="...">
+                    </div>
+                    <div class="rev-text ms-4">
+                      <h3 class="text-start">Marty McFly</h3>
+                      <p>Manager Sales,<span>Optima Corp</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- carousel item ends -->
+                <div class="carousel-item">
+                  <div class="rev_block text-start">
+                    <img src="./images/quote.svg" alt="quote.svg" class="quote-icon">
+                    <span> We use Connect for key for
+                      easy and seamless weekly communication with our clients. Pariatur cliche reprehenderit, enim
+                      eiusmod high life accusamus terry richardson ad squid.</span>
+                  </div>
+                  <div class="rev_block-bottom">
+                    <div>
+                      <img src="./images/rev3.png" alt="...">
+                    </div>
+                    <div class="rev-text ms-4">
+                      <h3 class="text-start">Marty McFly</h3>
+                      <p>Manager Sales,<span>Optima Corp</span></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- carousel item ends -->
+
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+  <!-- ============ BOOTSTRAP SCRIPT ============ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
