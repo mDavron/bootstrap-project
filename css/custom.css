@@ -296,10 +296,28 @@ h1 {
 	color: #505050;
 }
 
-p.refund-text{
+p.refund-text {
 	font-size: 12px;
 	font-weight: 500;
 	color: #505050;
+}
+
+/* CTA HERE */
+.cta-sub-title {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: #21bf73;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.cta-title {
+	font-size: 26px;
+	font-weight: 800;
+	line-height: 1.4;
+	color: #383B61;
 }
 
 
