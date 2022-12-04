@@ -16,6 +16,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <!-- FONT-AWESOME LINK HERE -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- ============ CUSTOM CSS LINK ============ -->
   <link rel="stylesheet" href="./css/custom.css">
@@ -197,28 +201,28 @@
               <div class="p-3">
                 <img src="./images/f1.png" class="img-fluid results_card-image" alt="f1.png">
               </div>
-              <h3>47%</h3>
+              <h3><span class="counter" data-target="47">47</span>%</h3>
               <p>Mobile Users</p>
             </div>
             <div class="col-6 col-sm-3 results_card">
               <div class="p-3">
                 <img src="./images/f2.png" class="img-fluid results_card-image" alt="f1.png">
               </div>
-              <h3>33%</h3>
+              <h3><span class="counter" data-target="33">33</span>%</h3>
               <p>Daily Views</p>
             </div>
             <div class="col-6 col-sm-3 results_card">
               <div class="p-3">
                 <img src="./images/f3.png" class="img-fluid results_card-image" alt="f1.png">
               </div>
-              <h3>28%</h3>
+              <h3><span class="counter" data-target="28">28</span>%</h3>
               <p>Monthly Returns</p>
             </div>
             <div class="col-6 col-sm-3 results_card">
               <div class="p-3">
                 <img src="./images/f4.png" class="img-fluid results_card-image" alt="f1.png">
               </div>
-              <h3>49%</h3>
+              <h3><span class="counter" data-target="49">49</span>%</h3>
               <p>Annual Growth</p>
             </div>
           </div>
@@ -328,7 +332,7 @@
     </section>
 
     <!-- ============ PRICING HERE ============ -->
-    <section id="pricing" class="pricing py-5">
+    <section id="pricing" class="pricing py-3 py-md-5">
       <div class="container text-center">
         <div class="row">
           <div class="col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 text-center">
@@ -375,7 +379,7 @@
     </section>
 
     <!-- ============ FAQ HERE ============ -->
-    <section id="faq" class="faq py-5">
+    <section id="faq" class="faq py-3 py-md-5">
       <div class="container">
         <div class="faq-inner bg--gray px-3 py-5 p-md-5">
           <div class="row">
@@ -493,14 +497,41 @@
 
     <!-- ============ FOOTER HERE ============ -->
     <footer>
-
+      <div class="container">
+        <div class="footer-inner">
+          <a class="logo" href="">Connect</a>
+          <div class="links text-center">
+            <a href="">About</a>
+            <a href="">Privacy</a>
+            <a href="">Therms</a>
+            <a href="">Contact</a>
+          </div>
+          <div class="social-icons text-center">
+            <img src="./images/i1.png" alt="#">
+            <img src="./images/i2.png" alt="#">
+            <img src="./images/i3.png" alt="#">
+            <img src="./images/i4.png" alt="#">
+          </div>
+        </div>
+      </div>
     </footer>
 
+    <!-- scroll to top element here -->
+    <a href="#" class="to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+  </div>
+  <!-- WRAPPER ENDS -->
 
     <!-- ============ BOOTSTRAP SCRIPT ============ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <!-- COUNTER CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
